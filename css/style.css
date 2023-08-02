@@ -222,11 +222,6 @@ body {
   border-radius: 50px;
   padding: 0.3125rem;
   position: relative;
-  @media (max-width: 480px) {
-  .dark-mode-btn {
-    display: none;
-  }
-}
 }
 
 .dark-mode-btn::before {
@@ -1775,5 +1770,11 @@ body {
 
   .skills__descr_link:hover {
     color: #5C62EC;
+  }
+}
+
+  @media (max-width: 480px) {
+  .dark-mode-btn {
+    display: none;
   }
 }
